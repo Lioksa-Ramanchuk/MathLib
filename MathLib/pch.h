@@ -1,5 +1,5 @@
 ﻿#ifndef MATH_LIB_PCH_H
-#define PCH_H
+#define MATH_LIB_PCH_H
 
 #include <string>
 

@@ -19,9 +19,9 @@ class NumberConverter {
 #pragma endregion
 
 #pragma region Conversion
-  bool Convert(std::string_view str_number,int base_from,
-                      std::string& str_converted_number, 
-                       int base_to, int precision = kDefaultPrecision) const;
+  bool Convert(std::string_view str_number, int base_from,
+               std::string& str_converted_number, int base_to,
+               int precision = kDefaultPrecision) const;
 
   bool ConvertTo10(std::string_view str_number, int base_from,
                    long double& converted_number) const;
